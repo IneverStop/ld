@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85a19d6e-ba82-4dfb-8f85-e475f9324e8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/generate.rst" beforeDir="false" afterPath="$PROJECT_DIR$/source/generate.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/modules/auth.rst" beforeDir="false" afterPath="$PROJECT_DIR$/source/modules/auth.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +138,7 @@
       <option name="presentableId" value="Default" />
       <updated>1557728874027</updated>
       <workItem from="1557728875985" duration="1139000" />
-      <workItem from="1557731461214" duration="5723000" />
+      <workItem from="1557731461214" duration="5874000" />
     </task>
     <task id="LOCAL-00001" summary="x">
       <created>1557731070211</created>
@@ -153,7 +151,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6862000" />
+    <option name="totallyTimeSpent" value="7013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -210,13 +208,13 @@
     <entry file="file://$PROJECT_DIR$/source/hello.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/modules/query.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/modules.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/source/index.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/modules/query.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/source/generate.rst">
