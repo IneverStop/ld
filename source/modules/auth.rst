@@ -106,27 +106,27 @@ GET /auth/token/login
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 ::
 
-1. 判断账户存在
-{
-  "status": "AUTH-NORMAL-1001",
-  "message": "账号存在",
-  "data": null
-}
-2. 登录，验证码错误
-{
-  "status": "AUTH-NORMAL-1001",
-  "message": "验证码错误",
-  "data": null
-}
-3. 登录成功
-{
-  "status": "AUTH-NORMAL-1001",
-  "message": "登录成功",
-  "data": 1348
-}
-4. 密码错误
-{
-  "status": "AUTH-NORMAL-1001",
-  "message": "密码不正确，请重新输入",
-  "data": 1348
-}
+ 1. 判断账户存在
+    {
+      "status": "AUTH-NORMAL-1001",
+      "message": "账号存在",
+      "data": null
+    }
+ 2. 登录，验证码错误
+    {
+      "status": "AUTH-NORMAL-1001",
+      "message": "验证码错误",
+      "data": null
+    }
+ 3. 登录成功
+    {
+      "status": "AUTH-NORMAL-1001",
+      "message": "登录成功",
+      "data": 1348
+    }
+ 4. 密码错误
+    {
+      "status": "AUTH-NORMAL-1001",
+      "message": "密码不正确，请重新输入",
+      "data": 1348
+    }
