@@ -5,10 +5,11 @@
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 ::
 
-GET /auth/token/login
+ GET /auth/token/login
 
 2.2 逻辑
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 提供了一个统一的接口，满足如下需求。
  1. 输入账户后首先判断账户是否存在
  2. 然后输入密码，判断密码是否正确
@@ -17,7 +18,6 @@ GET /auth/token/login
 验证账号是否存在时，只传入token字段。
 不带验证码登录时，需要传入除code之外的字段。
 带验证码登录时，需要传入所有字段。
-
 
 2.3 Request
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -38,12 +38,11 @@ GET /auth/token/login
 ::
 
  1. 判断账户是否存在
- /token/login?token=nihaodu
+    /token/login?token=nihaodu
  2. 带验证码登录
- /auth/token/login?token=nihaodu&&password=123456&&randomStr=1234&&code=7nad
+    /auth/token/login?token=nihaodu&&password=123456&&randomStr=1234&&code=7nad
  3. 不带验证码登录
-/auth/token/login?token=nihaodu&&password=123456&&randomStr=1234
-
+    /auth/token/login?token=nihaodu&&password=123456&&randomStr=1234
 
 2.5 Response
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -67,4 +66,3 @@ GET /auth/token/login
   "message": "密码不正确，请重新输入",
   "data": 1348
 }
-
