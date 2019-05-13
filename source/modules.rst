@@ -6,4 +6,4 @@
    :caption: Contents:
 
    auth
-   query
+   modules/query
