@@ -13,6 +13,8 @@ Auth模块
 
 1.1 访问路径
 >>>>>>>>>>>>>>>
+::
+
   GET /code
 
 1.2 逻辑
@@ -30,7 +32,9 @@ Auth模块
 
 1.4 Sample Request
 >>>>>>>>>>>>>>>>>>>>>>>
- | /code?randomStr=16751551425211184
+::
+
+ /code?randomStr=16751551425211184
 
 1.5 Response
 >>>>>>>>>>>>>>>
@@ -48,7 +52,7 @@ Auth模块
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 ::
 
-GET /auth/token/login
+ GET /auth/token/login
 
 2.2 逻辑
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -82,11 +86,11 @@ GET /auth/token/login
 ::
 
  1. 判断账户是否存在
- /token/login?token=nihaodu
+    /token/login?token=nihaodu
  2. 带验证码登录
- /auth/token/login?token=nihaodu&&password=123456&&randomStr=1234&&code=7nad
+    /auth/token/login?token=nihaodu&&password=123456&&randomStr=1234&&code=7nad
  3. 不带验证码登录
-/auth/token/login?token=nihaodu&&password=123456&&randomStr=1234
+    /auth/token/login?token=nihaodu&&password=123456&&randomStr=1234
 
 
 2.5 Response
