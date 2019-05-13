@@ -3,7 +3,7 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: 模块:
 
    modules/auth
    modules/query
