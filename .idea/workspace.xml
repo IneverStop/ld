@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85a19d6e-ba82-4dfb-8f85-e475f9324e8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/source/generate.rst" beforeDir="false" afterPath="$PROJECT_DIR$/source/generate.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/modules/auth.rst" beforeDir="false" afterPath="$PROJECT_DIR$/source/modules/auth.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/source/index.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +22,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/index.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
@@ -38,7 +37,7 @@
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/modules/auth.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
@@ -60,10 +59,10 @@
         <option value="$PROJECT_DIR$/source/auth.rst" />
         <option value="$PROJECT_DIR$/source/modules/query.rst" />
         <option value="$PROJECT_DIR$/source/module.rst" />
-        <option value="$PROJECT_DIR$/source/index.rst" />
         <option value="$PROJECT_DIR$/source/modules.rst" />
         <option value="$PROJECT_DIR$/source/generate.rst" />
         <option value="$PROJECT_DIR$/source/modules/auth.rst" />
+        <option value="$PROJECT_DIR$/source/index.rst" />
       </list>
     </option>
   </component>
@@ -139,7 +138,7 @@
       <option name="presentableId" value="Default" />
       <updated>1557728874027</updated>
       <workItem from="1557728875985" duration="1139000" />
-      <workItem from="1557731461214" duration="10210000" />
+      <workItem from="1557731461214" duration="10310000" />
     </task>
     <task id="LOCAL-00001" summary="x">
       <created>1557731070211</created>
@@ -152,7 +151,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11349000" />
+    <option name="totallyTimeSpent" value="11449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -209,12 +208,6 @@
     <entry file="file://$PROJECT_DIR$/source/hello.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/modules.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/index.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/modules/query.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
@@ -222,6 +215,12 @@
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/source/modules/auth.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/modules.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/index.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>
