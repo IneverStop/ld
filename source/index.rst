@@ -10,9 +10,7 @@ Welcome to hello's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   auth
-   hello
-   h2
+   modules
 
 
 
