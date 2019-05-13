@@ -11,6 +11,8 @@ Welcome to hello's documentation!
    :caption: Contents:
 
    auth
+   hello
+   h2
 
 
 
