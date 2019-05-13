@@ -5,5 +5,5 @@
    :maxdepth: 2
    :caption: Contents:
 
-   auth
+   modules/auth
    modules/query
