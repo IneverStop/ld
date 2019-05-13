@@ -132,5 +132,5 @@ Auth模块
     {
       "status": "AUTH-NORMAL-1001",
       "message": "密码不正确，请重新输入",
-      "data": 1348
+      "data": null
     }
