@@ -87,11 +87,11 @@ Auth模块
 ::
 
  1. 判断账户是否存在
-    /token/login?token=nihaodu
+    /auth/login?token=nihaodu
  2. 带验证码登录
-    /auth/token/login?token=nihaodu&&password=123456&&randomStr=1234&&code=7nad
+    /auth/login?token=nihaodu&&password=123456&&randomStr=1234&&code=7nad
  3. 不带验证码登录
-    /auth/token/login?token=nihaodu&&password=123456&&randomStr=1234
+    /auth/login?token=nihaodu&&password=123456&&randomStr=1234
 
 
 2.5 Response
