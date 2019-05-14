@@ -68,8 +68,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1263" />
-    <option name="y" value="249" />
+    <option name="x" value="277" />
+    <option name="y" value="522" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -140,7 +140,7 @@
       <updated>1557728874027</updated>
       <workItem from="1557728875985" duration="1139000" />
       <workItem from="1557731461214" duration="11014000" />
-      <workItem from="1557811430934" duration="2490000" />
+      <workItem from="1557811430934" duration="4162000" />
     </task>
     <task id="LOCAL-00001" summary="x">
       <created>1557731070211</created>
@@ -153,7 +153,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14643000" />
+    <option name="totallyTimeSpent" value="16315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
