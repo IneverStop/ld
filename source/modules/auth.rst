@@ -266,13 +266,18 @@ Auth模块
         "message": "验证码错误",
         "data": null
     }
- 3. 注册
+ 3. 注册成功
     {
         "status": "AUTH-NORMAL-1001",
         "message": "注册成功",
         "data": 1364
     }
-
+ 3. 注册时密码格式不正确
+    {
+        "status": "AUTH-ERROR-1102",
+        "message": "密码格式不正确",
+        "data": null
+    }
 
 ---------------------------------------------
 
