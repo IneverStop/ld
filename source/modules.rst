@@ -7,4 +7,5 @@
 
    modules/ports
    modules/auth
+   modules/enterprise
    modules/query
