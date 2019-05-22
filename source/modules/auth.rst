@@ -233,12 +233,7 @@ Auth模块
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 ::
 
- 1. 验证手机号码格式和是否可用
-     /auth/register?phone=12345679800
- 2. 判断验证码是否有用
-    /auth/register?code=475177&&randomStr=1234
- 3. 注册
-    /auth/register?phone=18100000000&&password=1234
+    /auth/register?phone=18100000000&&password=1234&&code=12312&&randomStr=12412412412
 
 4.5 Response
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -262,13 +257,7 @@ Auth模块
         "message": "手机号码已被使用",
         "data": null
      }
- 2. 判断验证码是否有用
-    {
-        "status": "AUTH-NORMAL-1001",
-        "message": "验证码错误",
-        "data": null
-    }
- 3. 注册成功
+ 2. 注册成功
     {
         "status": "AUTH-NORMAL-1001",
         "message": "注册成功",
