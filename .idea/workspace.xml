@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85a19d6e-ba82-4dfb-8f85-e475f9324e8a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/source/result.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/modules/auth.rst" beforeDir="false" afterPath="$PROJECT_DIR$/source/modules/auth.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/source/index.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/modules/ports.rst" beforeDir="false" afterPath="$PROJECT_DIR$/source/modules/ports.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,6 +17,21 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/modules/ports.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/modules.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/index.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/result.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
@@ -37,10 +53,11 @@
         <option value="$PROJECT_DIR$/source/module.rst" />
         <option value="$PROJECT_DIR$/source/modules/query.rst" />
         <option value="$PROJECT_DIR$/source/generate.rst" />
-        <option value="$PROJECT_DIR$/source/index.rst" />
         <option value="$PROJECT_DIR$/source/modules.rst" />
-        <option value="$PROJECT_DIR$/source/modules/ports.rst" />
         <option value="$PROJECT_DIR$/source/modules/auth.rst" />
+        <option value="$PROJECT_DIR$/source/modules/ports.rst" />
+        <option value="$PROJECT_DIR$/source/index.rst" />
+        <option value="$PROJECT_DIR$/source/result.rst" />
       </list>
     </option>
   </component>
@@ -90,6 +107,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\technical_department\doc\后端文档\ld\source" />
       <recent name="E:\Project\technical_department\doc\后端文档\ld\source\modules" />
     </key>
   </component>
@@ -119,7 +137,7 @@
       <workItem from="1557731461214" duration="11014000" />
       <workItem from="1557811430934" duration="6340000" />
       <workItem from="1558074757927" duration="1950000" />
-      <workItem from="1558314376696" duration="3197000" />
+      <workItem from="1558314376696" duration="4563000" />
     </task>
     <task id="LOCAL-00001" summary="x">
       <created>1557731070211</created>
@@ -132,7 +150,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23640000" />
+    <option name="totallyTimeSpent" value="25006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -190,10 +208,13 @@
     <entry file="file://$PROJECT_DIR$/source/index.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/modules/ports.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/modules.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/modules/ports.rst">
+    <entry file="file://$PROJECT_DIR$/source/result.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/source/modules/auth.rst">
