@@ -22,12 +22,12 @@
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/index.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/result.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
@@ -149,7 +149,7 @@
       <workItem from="1557731461214" duration="11014000" />
       <workItem from="1557811430934" duration="6340000" />
       <workItem from="1558074757927" duration="1950000" />
-      <workItem from="1558314376696" duration="10481000" />
+      <workItem from="1558314376696" duration="10960000" />
     </task>
     <task id="LOCAL-00001" summary="x">
       <created>1557731070211</created>
@@ -162,7 +162,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30924000" />
+    <option name="totallyTimeSpent" value="31403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="300" width="2039" height="1000" extended-state="0" />
@@ -214,9 +214,6 @@
     <entry file="file://$PROJECT_DIR$/source/modules/query.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/index.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/modules/auth.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
@@ -236,6 +233,9 @@
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/source/result.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/index.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>
