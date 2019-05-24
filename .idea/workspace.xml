@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85a19d6e-ba82-4dfb-8f85-e475f9324e8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/modules/results.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/modules/enterprise.rst" beforeDir="false" afterPath="$PROJECT_DIR$/source/modules/enterprise.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/result.rst" beforeDir="false" afterPath="$PROJECT_DIR$/source/result.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/modules/user.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/generate.rst" beforeDir="false" afterPath="$PROJECT_DIR$/source/generate.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/modules.rst" beforeDir="false" afterPath="$PROJECT_DIR$/source/modules.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/modules/results.rst" beforeDir="false" afterPath="$PROJECT_DIR$/source/modules/results.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +18,11 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/modules/ports.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/modules/auth.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
@@ -35,6 +42,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/modules/user.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/result.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
@@ -69,17 +81,19 @@
         <option value="$PROJECT_DIR$/source/generate.rst" />
         <option value="$PROJECT_DIR$/source/index.rst" />
         <option value="$PROJECT_DIR$/source/modules/auth.rst" />
-        <option value="$PROJECT_DIR$/source/modules.rst" />
         <option value="$PROJECT_DIR$/source/modules/ports.rst" />
         <option value="$PROJECT_DIR$/source/modules/enterprise.rst" />
-        <option value="$PROJECT_DIR$/source/modules/results.rst" />
         <option value="$PROJECT_DIR$/source/result.rst" />
+        <option value="$PROJECT_DIR$/source/modules/results.rst" />
+        <option value="$PROJECT_DIR$/source/modules.rst" />
+        <option value="$PROJECT_DIR$/source/modules/user.rst" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="300" />
-    <option name="width" value="2039" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -152,7 +166,7 @@
       <workItem from="1557731461214" duration="11014000" />
       <workItem from="1557811430934" duration="6340000" />
       <workItem from="1558074757927" duration="1950000" />
-      <workItem from="1558314376696" duration="14333000" />
+      <workItem from="1558314376696" duration="17325000" />
     </task>
     <task id="LOCAL-00001" summary="x">
       <created>1557731070211</created>
@@ -165,7 +179,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34776000" />
+    <option name="totallyTimeSpent" value="37768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -217,19 +231,16 @@
     <entry file="file://$PROJECT_DIR$/source/modules/query.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/modules/auth.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/index.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/generate.rst">
+    <entry file="file://$PROJECT_DIR$/source/modules/enterprise.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/source/modules/example.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/modules/enterprise.rst">
+    <entry file="file://$PROJECT_DIR$/source/result.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/source/modules/ports.rst">
@@ -241,7 +252,13 @@
     <entry file="file://$PROJECT_DIR$/source/modules.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/result.rst">
+    <entry file="file://$PROJECT_DIR$/source/modules/auth.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/generate.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/modules/user.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>

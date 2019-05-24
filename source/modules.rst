@@ -6,6 +6,7 @@
    :caption: 模块:
 
    modules/ports
+   modules/user
    modules/auth
    modules/enterprise
    modules/query
