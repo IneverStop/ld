@@ -10,3 +10,4 @@
    modules/auth
    modules/enterprise
    modules/query
+   modules/search
