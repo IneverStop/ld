@@ -11,3 +11,4 @@
    modules/enterprise
    modules/query
    modules/search
+   modules/course
