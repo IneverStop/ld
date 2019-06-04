@@ -40,7 +40,14 @@ Search模块
 ::
 
 
-    GET /search/addSearchHistory
+    Post /search/addSearchHistory
+    {
+        "searchKey":"西游记",
+        "searchModule":1,
+        "operationUser":1410
+    }
+
+
 
 1.5 Response
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -62,7 +69,7 @@ Search模块
     "status": "SEARCH-SUCCESS-101",
     "message": "添加成功",
     "data": null
-}
+  }
 
 ---------------------------------------------
 
@@ -74,7 +81,7 @@ Search模块
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 ::
 
- Get /search/querySearchHistory/searchModule?associatorid=xx
+ Get /search/querySearchHistory/{searchModule}?associatorid=xx
 
 2.2 逻辑
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -96,7 +103,7 @@ Search模块
 ::
 
 
-    GET /search/addSearchHistory
+    GET /search/querySearchHistory/1?associatorid=1
 
 2.5 Response
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -173,6 +180,12 @@ Search模块
 
 
     Delete /search/deleteSearchHistory
+    {
+	    "searchModule" : 1,
+	    "operationUser" : 1
+    }
+
+
 
 3.5 Response
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
