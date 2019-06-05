@@ -12,3 +12,4 @@
    modules/query
    modules/search
    modules/course
+   modules/social

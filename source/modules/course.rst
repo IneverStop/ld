@@ -246,14 +246,27 @@ Course模块
 --------------- --------------- ---------------------------------------------
   teacherName       String                         教师名
 --------------- --------------- ---------------------------------------------
+  teacherPhoto       String                        教师头像
+--------------- --------------- ---------------------------------------------
+ teacher
+ Description        Number                         教师简介
+--------------- --------------- ---------------------------------------------
   isreadable        Number                是否可观看 0 否  1 是
+--------------- --------------- ---------------------------------------------
+  hasLearned        Number                已学习数量
+--------------- --------------- ---------------------------------------------
+  isLearning        Number                在学习数量
+--------------- --------------- ---------------------------------------------
+  wantToLearn       Number                想学习数量
+--------------- --------------- ---------------------------------------------
+  hasGraded         Number                 当前用户是否已评论
 =============== =============== =============================================
 
 3.6 Sample Response
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 ::
 
-   {
+    {
       "status": "COURSE-SUCCESS-104",
       "message": "查询成功",
       "data": {
@@ -263,7 +276,7 @@ Course模块
         "typeId": 1,
         "categoryId": 3,
         "description": "asdgsag",
-        "coverPath": "348e43fd4fadaeed53b3e50c3e9d1d48.jpg:/attached/image/20190529/20190529142259_5SpN.jpg",
+        "coverPath": "xxx.jpg:/attached/image/20190418/20190418100345_tTeX.jpg",
         "teacherId": 1408,
         "ispay": 0,
         "ispublic": 1,
@@ -275,7 +288,13 @@ Course模块
         "categoryName": "烹饪",
         "typeName": "音频",
         "teacherName": "小明老师",
-        "isreadable": 1
+        "teacherPhoto": "xxx.jpg:/attached/image/20190418/20190418100345_tTeX.jpg",
+        "teacherDescription": "小明老师的简介",
+        "isreadable": 1,
+        "hasLearned": 0,
+        "isLearning": 0,
+        "wantToLearn": 0,
+        "hasGraded": 1
       }
     }
 
