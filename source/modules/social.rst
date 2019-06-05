@@ -9,7 +9,8 @@ Social模块
 接口
 --------
 
-1. 根据指定资源的ID列出其评论列表
+
+1. 根据指定资源的ID列出其评论及回复列表
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1.1 访问路径
@@ -21,7 +22,7 @@ Social模块
 1.2 逻辑
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
- 根据指定资源的ID列出其评论列表
+ 根据指定资源的ID列出其评论及回复列表
 
 1.3 Request
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -51,23 +52,47 @@ Social模块
 --------------- --------------- ---------------------------------------------
      data
 --------------- --------------- ---------------------------------------------
-      id            Number                         评论ID
+      id            Number                           评论ID
 --------------- --------------- ---------------------------------------------
- associatorId       Number                         评论者
+ associatorId       Number                           评论者
 --------------- --------------- ---------------------------------------------
-     score          Number                         评分
+     score          Number                            评分
 --------------- --------------- ---------------------------------------------
-    content         String                         评论内容
+    content         String                          评论内容
 --------------- --------------- ---------------------------------------------
-  createTime        String                         创建时间
+  createTime        String                          创建时间
 --------------- --------------- ---------------------------------------------
-   courseId         String                         资源ID
+   courseId         String                          资源ID
 --------------- --------------- ---------------------------------------------
-     state          Number          状态
+     state          Number         状态
                                         课程类型时：
                                                0：已学习
                                                1：在学习
                                                2：想学习
+--------------- --------------- ---------------------------------------------
+   userName         String                        评论者姓名
+--------------- --------------- ---------------------------------------------
+   userPhoto         NULL                         评论者头像
+--------------- --------------- ---------------------------------------------
+    praises         Number                        评论的点赞数
+--------------- --------------- ---------------------------------------------
+   favorites        Number                       评论的收藏数
+--------------- --------------- ---------------------------------------------
+   comments
+--------------- --------------- ---------------------------------------------
+   commentId        Number                        对此评论的回复ID
+--------------- --------------- ---------------------------------------------
+   userName          NULL                         回复者姓名
+--------------- --------------- ---------------------------------------------
+   userPhoto         NULL                         回复者头像
+--------------- --------------- ---------------------------------------------
+    content         String                         回复内容
+--------------- --------------- ---------------------------------------------
+  createTime        String                          回复时间
+--------------- --------------- ---------------------------------------------
+    praises         Number                          回复的点赞数
+--------------- --------------- ---------------------------------------------
+   favorites        Number                         回复的收藏数
 =============== =============== =============================================
 
 1.6 Sample Response
@@ -79,13 +104,46 @@ Social模块
       "message": "查询成功",
       "data": [
         {
-          "id": 1,
-          "associatorId": 1341,
+          "id": 7,
+          "associatorId": 34,
           "score": 0,
-          "content": "真好看",
-          "createTime": "2019-03-28T16:04:30",
+          "content": "5ik 5",
+          "createTime": "2019-04-19T12:59:48",
           "courseId": "1",
-          "state": 0
+          "state": 2,
+          "userName": "liandu",
+          "userPhoto": null,
+          "praises": 0,
+          "favorites": 0,
+          "comments": [
+            {
+              "commentId": 23,
+              "userName": null,
+              "userPhoto": null,
+              "content": "好的好的",
+              "createTime": "2019-06-05T15:08:18",
+              "praises": 0,
+              "favorites": 0
+            },
+            {
+              "commentId": 22,
+              "userName": null,
+              "userPhoto": null,
+              "content": "hahah",
+              "createTime": "2019-06-05T15:08:04",
+              "praises": 0,
+              "favorites": 0
+            },
+            {
+              "commentId": 21,
+              "userName": "你好毒啊啊啊",
+              "userPhoto": null,
+              "content": "噗噗噗",
+              "createTime": "2019-06-05T15:07:51",
+              "praises": 0,
+              "favorites": 1
+            }
+          ]
         },
         {
           "id": 2,
@@ -94,19 +152,86 @@ Social模块
           "content": "真的是风格然后",
           "createTime": "2019-04-19T10:16:27",
           "courseId": "1",
-          "state": 1
+          "state": 1,
+          "userName": "18862243210",
+          "userPhoto": null,
+          "praises": 0,
+          "favorites": 0,
+          "comments": [
+            {
+              "commentId": 23,
+              "userName": null,
+              "userPhoto": null,
+              "content": "好的好的",
+              "createTime": "2019-06-05T15:08:18",
+              "praises": 0,
+              "favorites": 0
+            },
+            {
+              "commentId": 22,
+              "userName": null,
+              "userPhoto": null,
+              "content": "hahah",
+              "createTime": "2019-06-05T15:08:04",
+              "praises": 0,
+              "favorites": 0
+            },
+            {
+              "commentId": 21,
+              "userName": "你好毒啊啊啊",
+              "userPhoto": null,
+              "content": "噗噗噗",
+              "createTime": "2019-06-05T15:07:51",
+              "praises": 0,
+              "favorites": 1
+            }
+          ]
         },
         {
-          "id": 7,
-          "associatorId": 34,
+          "id": 1,
+          "associatorId": 1341,
           "score": 0,
-          "content": "5ik 5",
-          "createTime": "2019-04-19T12:59:48",
+          "content": "真好看",
+          "createTime": "2019-03-28T16:04:30",
           "courseId": "1",
-          "state": 2
+          "state": 0,
+          "userName": "15862370186",
+          "userPhoto": null,
+          "praises": 0,
+          "favorites": 1,
+          "comments": [
+            {
+              "commentId": 23,
+              "userName": null,
+              "userPhoto": null,
+              "content": "好的好的",
+              "createTime": "2019-06-05T15:08:18",
+              "praises": 0,
+              "favorites": 0
+            },
+            {
+              "commentId": 22,
+              "userName": null,
+              "userPhoto": null,
+              "content": "hahah",
+              "createTime": "2019-06-05T15:08:04",
+              "praises": 0,
+              "favorites": 0
+            },
+            {
+              "commentId": 21,
+              "userName": "你好毒啊啊啊",
+              "userPhoto": null,
+              "content": "噗噗噗",
+              "createTime": "2019-06-05T15:07:51",
+              "praises": 0,
+              "favorites": 1
+            }
+          ]
         }
       ]
     }
 
 ---------------------------------------------
+
 
