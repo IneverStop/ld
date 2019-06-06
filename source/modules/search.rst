@@ -239,6 +239,8 @@ searchModule       Number      搜索的模块  1 : 表示首页  2：图书 3�
 4.4 Sample Request
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 ::
+
+
     Post /search/queryListOnSearch
     {
 	    "searchModule" : 3,

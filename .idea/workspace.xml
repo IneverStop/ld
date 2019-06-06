@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85a19d6e-ba82-4dfb-8f85-e475f9324e8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/generate.rst" beforeDir="false" afterPath="$PROJECT_DIR$/source/generate.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/modules/search.rst" beforeDir="false" afterPath="$PROJECT_DIR$/source/modules/search.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/modules/search.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3978">
-              <caret line="383" selection-start-line="383" selection-end-line="383" />
+            <state relative-caret-position="900">
+              <caret line="242" selection-start-line="242" selection-end-line="242" />
             </state>
           </provider>
         </entry>
@@ -303,8 +300,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/modules/search.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3978">
-          <caret line="383" selection-start-line="383" selection-end-line="383" />
+        <state relative-caret-position="900">
+          <caret line="242" selection-start-line="242" selection-end-line="242" />
         </state>
       </provider>
     </entry>
