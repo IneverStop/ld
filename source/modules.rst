@@ -13,3 +13,4 @@
    modules/search
    modules/course
    modules/social
+   modules/statistics
