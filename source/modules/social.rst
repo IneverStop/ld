@@ -33,15 +33,13 @@ Social模块
                                           course:课程
 --------------- --------------- ---------------------------------------------
    sourceId         String                      资源ID
---------------- --------------- ---------------------------------------------
-  associatorId       Number                      登录用户ID（为空时，传入空）
 =============== =============== =============================================
 
 1.4 Sample Request
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 ::
 
-    GET /social/grade/all?sourceName=course&&sourceId=1&associatorId=xx
+    GET /social/grade/all?sourceName=course&&sourceId=1
 
 1.5 Response
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -68,9 +66,9 @@ Social模块
 --------------- --------------- ---------------------------------------------
      state          Number         状态
                                         课程类型时：
-                                               0：已学习
-                                               1：在学习
-                                               2：想学习
+                                               read：已学习
+                                               is：在学习
+                                               unread：想学习
 --------------- --------------- ---------------------------------------------
    userName         String                        评论者姓名
 --------------- --------------- ---------------------------------------------
@@ -101,7 +99,7 @@ Social模块
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 ::
 
-   {
+    {
       "status": "SOCIAL-SUCCESS-104",
       "message": "查询成功",
       "data": [
@@ -110,9 +108,9 @@ Social模块
           "associatorId": 34,
           "score": 0,
           "content": "5ik 5",
+          "state": "unread",
           "createTime": "2019-04-19T12:59:48",
           "courseId": "1",
-          "state": 2,
           "userName": "liandu",
           "userPhoto": null,
           "praises": 0,
@@ -152,9 +150,9 @@ Social模块
           "associatorId": 1339,
           "score": 0,
           "content": "真的是风格然后",
+          "state": "is",
           "createTime": "2019-04-19T10:16:27",
           "courseId": "1",
-          "state": 1,
           "userName": "18862243210",
           "userPhoto": null,
           "praises": 0,
@@ -194,9 +192,9 @@ Social模块
           "associatorId": 1341,
           "score": 0,
           "content": "真好看",
+          "state": "read",
           "createTime": "2019-03-28T16:04:30",
           "courseId": "1",
-          "state": 0,
           "userName": "15862370186",
           "userPhoto": null,
           "praises": 0,
@@ -235,5 +233,4 @@ Social模块
     }
 
 ---------------------------------------------
-
 

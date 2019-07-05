@@ -6,11 +6,12 @@
    :caption: 模块:
 
    modules/ports
-   modules/user
    modules/auth
+   modules/book
+   modules/statistics
+   modules/social
    modules/enterprise
-   modules/query
+   modules/user
    modules/search
    modules/course
-   modules/social
-   modules/statistics
+   modules/query
