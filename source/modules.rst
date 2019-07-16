@@ -14,4 +14,5 @@
    modules/user
    modules/search
    modules/course
+   modules/task
    modules/query
