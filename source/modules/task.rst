@@ -58,10 +58,9 @@ Task模块
         "courseType": 0,
         "sourceId": 30,
         "companyId": 13,
-        "ip": "192.168.0.134",
+        "title": "dagadsgasd",
         "content": "<p>nihao</p>",
-        "operatorUser": 1340,
-        "up": 1
+        "operatorUser": 1340
     }
 
 1.5 Response
