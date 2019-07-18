@@ -717,6 +717,8 @@ learnedLessonNumber     Number                 当前学习了几课时
     truant          Number             旷课学生（abundant为true时显示）
 --------------- --------------- ---------------------------------------------
     taskId          Number              作业ID （null表示没有布置作业）
+--------------- --------------- ---------------------------------------------
+  providerId        Number           课程所属公司ID （null表示没有布置作业）
 =============== =============== =============================================
 
 8.6 Sample Response
@@ -740,7 +742,8 @@ learnedLessonNumber     Number                 当前学习了几课时
         "normal": 44,
         "vacate": 3,
         "truant": 2,
-        "taskId": 122
+        "taskId": 122,
+        "providerId": 13
       }
     }
 
