@@ -459,7 +459,8 @@ replyUserName       String                     回复者姓名
           "teacherName": "dasgasdgads",
           "teacherPhoto": "dasgasd",
           "createTime": "2019-07-15 14:41:40",
-          "grades": 0
+          "grades": 0,
+          "taskType": "线上课程作业"
         },
         {
           "taskId": 1,
@@ -467,7 +468,8 @@ replyUserName       String                     回复者姓名
           "teacherName": "dgadsg",
           "teacherPhoto": "dasgads",
           "createTime": "2019-07-15 14:41:35",
-          "grades": 0
+          "grades": 0,
+          "taskType": "线上课程作业"
         }
       ]
     }
